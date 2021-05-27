@@ -1,28 +1,48 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="Main">
+    <TopNav></TopNav>
+    <Slide></Slide>
+    <Content4></Content4>
+    <Content3></Content3>
+    <Content2></Content2>
+    <Content1></Content1>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TopNav from './components/TopNav.vue'
+import Slide from './components/Slide.vue'
+import Content4 from './components/Content4.vue'
+import Content3 from './components/Content3.vue'
+import Content2 from './components/Content2.vue'
+import Content1 from './components/Content1.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TopNav,
+    Slide,
+    Content4,
+    Content3,
+    Content2,
+    Content1,
+    Footer
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  * {
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  #Main{
+    max-width: 1920px;
+    width: 100%;
+    
+  }
 </style>
