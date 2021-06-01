@@ -33,7 +33,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+
   * {
     margin:0;
     box-sizing: border-box;

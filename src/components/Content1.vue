@@ -71,9 +71,9 @@ export default {
       margin: 0 auto;
       max-width: 1200px;
       width: 100%;
+      padding-top: 87px;
       
       >h1{
-        margin-top: 87px;
         margin-bottom: 50px;
       }
 
