@@ -94,9 +94,28 @@ export default {
           // box-shadow: ;
           box-shadow:3px 10px 20px #d8d8d8;
 
+          .image1{
+            background-image: url("../assets/1.png");
+          }
+          .image2{
+            background-image: url("../assets/2.png");
+          }
+          .image3{
+            background-image: url("../assets/3.png");
+          }
+          .image4{
+            background-image: url("../assets/4.png");
+          }
+          .image5{
+            background-image: url("../assets/5.png");
+          }
+          .image6{
+            background-image: url("../assets/6.png");
+          }
+
           > div:first-child{
             height: 151px;
-            background:orange ;
+            // background:orange ;
           }
 
           > div:last-child{

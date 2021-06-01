@@ -2,10 +2,10 @@
   <div id="Main">
     <TopNav></TopNav>
     <Slide></Slide>
-    <Content4></Content4>
-    <Content3></Content3>
-    <Content2></Content2>
     <Content1></Content1>
+    <Content2></Content2>
+    <Content3></Content3>
+    <Content4></Content4>
     <Footer></Footer>
   </div>
 </template>

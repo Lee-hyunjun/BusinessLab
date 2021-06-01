@@ -65,8 +65,10 @@ export default {
             margin: 0 auto;
 
             span{
+              display: block;
               color: white;
               font-size: 20px;
+              margin-bottom: 25px;
             }
 
             p{
