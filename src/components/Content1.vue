@@ -179,7 +179,7 @@ export default {
           }
         }
         .image{
-          transition: .3s;
+          transition: 1s;
           // width: 100%;
           // height: 100%;
           background-repeat: no-repeat;

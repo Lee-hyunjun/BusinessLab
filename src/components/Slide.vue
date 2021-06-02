@@ -73,14 +73,14 @@ export default {
         this.slide = 1
       }
       
-          var vel = document.getElementById("slide1Text")
-          var vel2 = document.getElementById("TextMove")
-          vel.classList.remove('TextOpacity')
-          vel2.classList.remove('TextMove')
-          void vel.offsetWidth;
-          void vel2.offsetWidth;
-          vel.classList.add("TextOpacity");
-          vel2.classList.add("TextMove");
+          // var vel = document.getElementById("slide1Text")
+          // var vel2 = document.getElementById("TextMove")
+          // vel.classList.remove('TextOpacity')
+          // vel2.classList.remove('TextMove')
+          // void vel.offsetWidth;
+          // void vel2.offsetWidth;
+          // vel.classList.add("TextOpacity");
+          // vel2.classList.add("TextMove");
 
 
 
@@ -200,6 +200,7 @@ export default {
         align-items: center;
         justify-content: center;
         height: 80%;
+        animation: TextMove 2s;
       }
 
       .slide1Text{
@@ -209,6 +210,7 @@ export default {
         height: 100%;
         margin: 0 auto;
         z-index: 100;
+        animation: TextOpacity 2s;
 
 
         span{
