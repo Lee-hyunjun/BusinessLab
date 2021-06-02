@@ -69,12 +69,15 @@ export default {
               color: white;
               font-size: 20px;
               margin-bottom: 25px;
+              font-family: GmarketSansTTFMedium ,sans-serif;
+              font-size: 1.25rem;
             }
 
             p{
-              font-size: 45px;
+              font-size: 2.8125rem;
               font-weight: bold;
               color: #01bc9a;
+              font-family: GmarketSansTTFBold ,sans-serif;
             }
             
           }

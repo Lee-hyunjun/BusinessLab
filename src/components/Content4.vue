@@ -315,7 +315,80 @@
       </div>
       <div class="footContent">
         <p>Partners</p>
-        <div></div>
+        <div>
+          <div class="footItem">
+            <div>
+              <img src="../assets/content4/MviaLogo.png" alt="icon">
+            </div>
+            <div>
+              <p>중소혁신벤처기업협회</p>
+              <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+            </div>
+            <div>
+              <p></p>
+            </div>
+          </div>
+          <div class="footItem">
+            <div>
+              <img src="../assets/content4/3.png" alt="icon">
+            </div>
+            <div>
+              <p>블루오션투자자협회</p>
+              <span>Blue Ocean Investor Association</span>
+            </div>
+            <div>
+              <p></p>
+            </div>
+          </div>
+          <div class="footItem">
+            <div>
+              <img src="../assets/content4/2.png" alt="icon">
+            </div>
+            <div>
+              <p>성능검증연구협의회</p>
+              <span>Research association for ICT <br>performance verification</span>
+            </div>
+            <div>
+              <p></p>
+            </div>
+          </div>
+          <div class="footItem">
+            <div>
+              <img src="../assets/content4/3.png" alt="icon">
+            </div>
+            <div>
+              <p>블루오션벤처스</p>
+              <span>Blue Ocean Ventures</span>
+            </div>
+            <div>
+              <p></p>
+            </div>
+          </div>
+          <div class="footItem">
+            <div>
+              <img src="../assets/content4/3.png" alt="icon">
+            </div>
+            <div>
+              <p>블루오션플래닛</p>
+              <span>Blue Ocean Planet</span>
+            </div>
+            <div>
+              <p></p>
+            </div>
+          </div>
+          <div class="footItem">
+            <div>
+              <img src="../assets/content4/3.png" alt="icon">
+            </div>
+            <div>
+              <p>블루오션미디어</p>
+              <span>Blue Ocean Media</span>
+            </div>
+            <div>
+              <p></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -331,12 +404,6 @@ export default {
 
 <style lang="scss">
 
-  @font-face{
-    src:url(../assets/fonts/BebasNeue-Regular.ttf);
-    font-family: BebasNeue-Regular;
-    font-weight: 400;
-    // src:'@/assets/fonts/NanumBarunGothicLight.ttf' format('truetype');
-  }
 
   .content4Main{
     position: relative;
@@ -354,9 +421,10 @@ export default {
       padding-top: 13px;        
 
       >p{
-        color: #525871;
+        color: #0d1741;
         font-size: 2.375rem;
         margin-bottom: 25px;
+        font-family: 'GmarketSansTTFBold' ,sans-serif;
       }
 
       >span{
@@ -364,6 +432,7 @@ export default {
         font-size: .9375rem;
         display: block;
         margin-bottom: 82px;
+        font-family: 'GmarketSansTTFMedium' ,sans-serif;
       }
 
       .MainContent{
@@ -404,7 +473,7 @@ export default {
               margin-right: 12px;
               position: relative;
               margin-bottom: 29px;
-
+              font-family:  BebasNeue-Regular;;
             }
 
             p::after{
@@ -453,10 +522,12 @@ export default {
               margin-bottom: 10px;
 
               p{
+                font-family: 'Objektiv Mk2 W03 Bold';
                 font-weight: bold;
               }
               span{
                 font-size: .8125rem;
+                font-family: 'Objektiv Mk2 W03 Bold';
               }
             }
            
@@ -470,20 +541,116 @@ export default {
             max-width:380px;
             width: 100%;
             height: 373px;
-            background-image:url("../assets/content3/1.png");
+            background-image:url("../assets/content4/1.png");
           }
       }
 
       .footContent{
-        p{
+
+        >p{
           margin-bottom: 30px;
           display: flex;
           justify-content: center;
           font-size: 1.25rem;
+          font-family: GmarketSansTTFBold ,sans-serif;
         }
         >div{
+          box-shadow:0px 0px 22px #e0e0e0;
           height: 164px;
-          border: 1px solid black;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          
+          .footItem{
+            max-width: 1200px;
+            width: 100%;
+            height: 100%;
+            padding-top: 21px;
+            padding-left: 36px;
+
+            >div:first-child{
+              height: 45px;
+              display: flex;
+              align-items: center;
+              margin-bottom: 10px;
+            }
+
+            >div:nth-child(2){
+              height: 42px;
+              margin-bottom: 10px;
+
+              >p{
+                font-size: .75rem;
+                font-weight: bold;
+                color: #0d1741;
+                font-family: 'GmarketSansTTFMedium' ,sans-serif;
+              }
+
+              >span{
+                font-size: .625rem;
+                display: flex;
+                color: #0d1741;
+                font-family: 'GmarketSansTTFMedium' ,sans-serif;
+              }
+            }
+            
+            >div:last-child{
+              width: 25px;
+              height: 25px;
+              border-radius: 100%;
+              border: 1px solid #0fca87;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: .3s;
+              cursor: pointer;
+
+              p{
+                height: 1px;
+                width: 13px;
+                background: #19234b;
+                position:relative;
+                transition: .3s;
+              }
+
+              p::after{
+                content: "";
+                width: 5px;
+                height: 1px;
+                background: #19234b;
+                position: absolute;
+                right: 0;
+                top:-2px;
+                transform: rotate(45deg);
+                transition: .3s;
+              }
+
+              p::before{
+                content: "";
+                width: 5px;
+                height: 1px;
+                background: #19234b;
+                position: absolute;
+                right: 0;
+                top: 2px;
+                transform: rotate(-45deg);
+                transition: .3s;
+              }
+
+            }
+
+            >div:last-child:hover{
+              background: #0fca87;
+              border: 1px solid white;
+
+              >p,p::after,p::before{
+                background: white;
+              }
+            }
+          }
         }
       }
     }

@@ -87,6 +87,7 @@ export default {
         color: #01bc9a;
         // margin-top: 195px;
         margin-bottom: 15px;
+        font-family: GmarketSansTTFMedium ,sans-serif;
       }
 
       >p{
@@ -97,6 +98,7 @@ export default {
         color: #0d1741;
         font-weight: bold;
         margin-bottom: 65px;
+        font-family: GmarketSansTTFBold ,sans-serif;
       }
 
       >div{
@@ -132,13 +134,16 @@ export default {
           font-size: 1.25rem;
           font-weight: bold;
           margin-top: 28px;
-          margin-bottom: 25px;
+          margin-bottom: 15px;
           color: #525871;
+          font-family: GmarketSansTTFMedium ,sans-serif;
         }
 
         p{
           font-size: 1rem;
           color: #525871;
+          @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+          font-family: 'Noto Sans CJK KR', Noto Sans KR, sans-serif;
         }
 
       }

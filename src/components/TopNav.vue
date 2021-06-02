@@ -7,8 +7,7 @@
         <p>Business</p> 
         <p>area</p> 
         <p>Target</p> 
-        <p>Our</p> 
-        <p>goal</p> 
+        <p>Our goal</p> 
         <p>Works</p> 
         <p>Partners</p> 
         <p>Contact</p> 
@@ -52,6 +51,8 @@ export default {
           margin-left: 24px;
           position: relative;
           transition: .3s;
+          font-family: 'Objektiv Mk2 W03 Medium' ,sans-serif;
+          font-size: .875rem;
         }
 
 

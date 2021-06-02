@@ -14,14 +14,14 @@
           <div class="image2"></div>
           <div>
             <p>02</p>
-            <span>비즈니스 리모델링</span>
+            <span>미래전략 설계</span>
           </div>
         </div>
         <div>
           <div class="image3"></div>
           <div>
             <p>03</p>
-            <span>비즈니스 리모델링</span>
+            <span>컨설팅</span>
           </div>
         </div>
       </div>
@@ -30,21 +30,21 @@
           <div class="image4"></div>
           <div>
             <p>04</p>
-            <span>비즈니스 리모델링</span>
+            <span>AI 모델 계발</span>
           </div>
         </div>
         <div>
           <div class="image5"></div>
           <div>
             <p>05</p>
-            <span>비즈니스 리모델링</span>
+            <span>AI 데이터 가공</span>
           </div>
         </div>
         <div>
           <div class="image6"></div>
           <div>
             <p>06</p>
-            <span>비즈니스 리모델링</span>
+            <span>초기투자</span>
           </div>
         </div>
       </div>
@@ -75,6 +75,8 @@ export default {
       
       >h1{
         margin-bottom: 50px;
+        font-family: GmarketSansTTFBold ,sans-serif;
+        color: #0d1741;
       }
 
       .contentTop{
@@ -131,6 +133,7 @@ export default {
              font-size: 26px;
              display: flex;
              align-items: center;
+             font-family: GmarketSansTTFBold ,sans-serif;
             }
 
             p::after{
@@ -145,6 +148,7 @@ export default {
             span{
               color: #0d1741;
               font-size: 26px;
+              font-family: GmarketSansTTFMedium ,sans-serif;
             }
           }
         }

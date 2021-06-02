@@ -54,12 +54,7 @@ export default {
 </script>
 
 <style lang="scss">
-  @font-face{
-    src:url(../assets/fonts/GmarketSansTTF/GmarketSansTTFMedium.ttf);
-    font-family: GmarketSansTTFMedium;
-    font-weight: 400;
-    // src:'@/assets/fonts/NanumBarunGothicLight.ttf' format('truetype');
-  }
+
 
   .content3Main{
     width: 100%;
@@ -79,16 +74,17 @@ export default {
     .fonts{
 
       p,span{
-        font-family : GmarketSansTTFMedium !important;
         color: #0d1741;
         font-weight: bold;
       }
 
       p{
+        font-family: GmarketSansTTFBold ,sans-serif;
         font-size: 2.375rem;
       }
 
       span{
+        font-family : GmarketSansTTFMedium ,sans-serif;
         display: block;
         font-size: .625rem;
       }
