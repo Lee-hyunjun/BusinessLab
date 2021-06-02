@@ -3,14 +3,13 @@
     <div>
       <img src="../assets/logo.png" alt="Logo">
       <div>
-        <p>About</p> 
-        <p>Business</p> 
-        <p>area</p> 
-        <p>Target</p> 
-        <p>Our goal</p> 
-        <p>Works</p> 
-        <p>Partners</p> 
-        <p>Contact</p> 
+        <p @click="scroll(1)">About</p> 
+        <p @click="scroll(2)">Business area</p> 
+        <p @click="scroll(3)">Target</p> 
+        <p @click="scroll(4)">Our goal</p> 
+        <p @click="scroll(5)">Works</p> 
+        <p @click="scroll(6)">Partners</p> 
+        <p @click="scroll(7)">Contact</p> 
       </div>
     </div>
   </div>
@@ -23,6 +22,44 @@
 export default {
   components: {
     // Logo
+  },
+
+  methods:{
+    scroll(key){
+      let top = 0;
+      switch (key) {
+        case 1:
+          top = 0
+          break;
+        case 2:
+          top = 800
+          break;
+        case 3:
+          top = 1600
+          break;
+        case 4:
+          top = 2736
+          break;
+        case 5:
+          top = 3235
+          break;
+        case 6:
+          top = 5465
+          break;
+      
+        case 7:
+          top = 5465    
+          break;
+
+        default:
+          break;
+      }
+       window.scrollTo({
+        top: top,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
   }
 }
 </script>
