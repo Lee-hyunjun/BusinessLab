@@ -67,6 +67,7 @@ export default {
 <style  lang="scss">
   .Navs{
     position: absolute;
+    z-index: 1000;
     top: 55px;
     width: 100%;
 

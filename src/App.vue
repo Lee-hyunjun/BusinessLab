@@ -71,6 +71,10 @@ export default {
     padding: 0;
   }
 
+  body{
+    overflow-x:hidden;
+  }
+
   #Main{
     max-width: 1920px;
     width: 100%;
