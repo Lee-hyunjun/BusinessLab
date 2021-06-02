@@ -6,21 +6,30 @@
       <div class="itemsTop">
         <div class="content2_Item">
           <div>
-            <img src="../assets/content2/icons/icon1.png" alt="icon">
+            <div>
+              <img src="../assets/content2/icons/icon1.png" alt="icon">
+              <img src="../assets/content2/icons/icon1_white.png" alt="icon">
+            </div>
             <span>변화 관리</span>
             <p>고객사가 변화에 수반되는 위험 요소들을 <br> 예측하고 평가하며 관리하여 어려움을 극복</p>
           </div>
         </div>
         <div class="content2_Item">
           <div>
-            <img src="../assets/content2/icons/icon2.png" alt="icon">
+            <div>
+              <img src="../assets/content2/icons/icon2.png" alt="icon">
+              <img src="../assets/content2/icons/icon2_white.png" alt="icon">
+            </div>
             <span>기업 성장</span>
             <p>투자 전략을  통한 경쟁 우위를 차지할 수 <br> 있도록 지원</p>
           </div>
         </div>
         <div class="content2_Item">
           <div>
-            <img src="../assets/content2/icons/icon3.png" alt="icon">
+            <div>
+              <img src="../assets/content2/icons/icon3.png" alt="icon">
+              <img src="../assets/content2/icons/icon3_white.png" alt="icon">
+            </div>
             <span>고객 전략 및 마케팅</span>
             <p>회사 운영과 경제성(economics)에 관한 <br> 실질적인 전문성에 심도 깊은 고객 인사이트를 <br> 접목하여, 고객사들이 지속가능하고 유기적인 <br> 성장을 달성할 수 있도록 지원</p>
           </div>
@@ -29,21 +38,30 @@
       <div class="items_bottom">
         <div class="content2_Item">
           <div>
-            <img src="../assets/content2/icons/icon4.png" alt="icon">
+            <div>
+              <img src="../assets/content2/icons/icon4.png" alt="icon">
+              <img src="../assets/content2/icons/icon4_white.png" alt="icon">
+            </div>
             <span>M&A and Divestitures</span>
             <p>M&A 기회가 발생하기 이전부터 계획을 세우고,<br> 꾸준히 이어지는 거래를 성사시켜 반복가능한<br> 인수 모델을 정립</p>
           </div>
         </div>
         <div class="content2_Item">
           <div>
-            <img src="../assets/content2/icons/icon5.png" alt="icon">
+            <div>
+              <img src="../assets/content2/icons/icon5.png" alt="icon">
+              <img src="../assets/content2/icons/icon5_white.png" alt="icon">
+            </div>
             <span>조직</span>
             <p>모든 조직 시스템을 통일하여 재무 성과와 근무<br>환경을 개선하도록 지원하고, 기업의 목표를 <br>달성할 수 있도록 지원</p>
           </div>
         </div>
         <div class="content2_Item">
           <div>
-            <img src="../assets/content2/icons/icon6.png" alt="icon">
+            <div>
+              <img src="../assets/content2/icons/icon6.png" alt="icon">
+              <img src="../assets/content2/icons/icon6_white.png" alt="icon">
+            </div>
             <span>운영</span>
             <p>기업 성장과 비용 절감, 전략 실행을 위해 사업<br> 운영의 개념을 새롭게 형성</p>
           </div>
@@ -127,6 +145,26 @@ export default {
           position: relative;
           z-index: 10;
           transition: .3s;
+
+          >div{
+            height: 60px;
+            position: relative;
+
+            >img:first-child{
+              transition: .3s;
+            }
+
+            >img:last-child{
+              transition: .3s;
+              opacity: 0;
+            }
+
+            >img{
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+          }
         }
 
         span{
@@ -173,11 +211,30 @@ export default {
         z-index: 2;
         transition: .5s;
       }
-
+      
       .content2_Item:hover{
         box-shadow:3px 10px 20px #bbbbbb;
-      } 
-  
+
+        > div{
+          
+          // filter: brightness(0) invert(1);
+
+          >div{
+            >img:first-child{
+              opacity: 0;
+            }
+
+            >img:last-child{
+              opacity: 1;
+            }
+          }
+
+          >span,p{
+            color: white;
+          }
+        }
+      }
+
       .content2_Item:hover::before{
         opacity: .9;
       }
@@ -185,14 +242,7 @@ export default {
         opacity: 1;
       }
 
-      .content2_Item:hover{
-        > div{
-          
-          filter: brightness(0) invert(1);
-
-
-        }
-      }
+      
     }
   }
 </style>
