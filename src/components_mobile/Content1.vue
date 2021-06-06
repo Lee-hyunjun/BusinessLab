@@ -1,8 +1,8 @@
 <template>
-  <div class="mainContent">
+  <div class="mainContent_m">
     <div>
       <h1>Business area</h1>
-      <div class="contentTop">
+      <div class="content">
         <div>
           <div>
             <div class="image1 image"></div>
@@ -30,8 +30,6 @@
             <span>컨설팅</span>
           </div>
         </div>
-      </div>
-      <div class="contentBottom">
         <div>
           <div>
             <div class="image4 image"></div>
@@ -73,15 +71,15 @@ export default {
 </script>
 
 <style lang="scss">
-  .mainContent{
-    max-width: 1920px;
+  .mainContent_m{
+    max-width: 1200px;
     width: 100%;
-    height: 800px;
-    background-image: url("../assets/backBuilding.png");
+    height: 2500px;
+    // background-image: url("../assets/backBuilding.png");
 
     > div{
       margin: 0 auto;
-      max-width: 1200px;
+      max-width: 1060px;
       width: 100%;
       padding-top: 87px;
       
@@ -91,70 +89,70 @@ export default {
         color: #0d1741;
       }
 
-      .contentTop{
-        margin-bottom: 48px;
-      }
-
       > div{
         width: 100%;
         height: 235px;
         display: flex;
+        flex-flow: wrap;
         align-items: center;
         justify-content: space-between;
 
         >div{
           overflow: hidden;
-          height: 100%;
-          width: 380px;
+          height: 650px;
+          width: 495px;
           box-shadow:3px 10px 20px #d8d8d8;
+          margin-bottom: 90px;
 
           .image1{
-            background-image: url("../assets/1.png");
+            background-image: url("../assets/mobile/content1/1.png");
           }
           .image2{
-            background-image: url("../assets/2.png");
+            background-image: url("../assets/mobile/content1/2.png");
           }
           .image3{
-            background-image: url("../assets/3.png");
+            background-image: url("../assets/mobile/content1/3.png");
           }
           .image4{
-            background-image: url("../assets/4.png");
+            background-image: url("../assets/mobile/content1/4.png");
           }
           .image5{
-            background-image: url("../assets/5.png");
+            background-image: url("../assets/mobile/content1/5.png");
           }
           .image6{
-            background-image: url("../assets/6.png");
+            background-image: url("../assets/mobile/content1/6.png");
           }
 
             >div{
               overflow: hidden;
               > div:first-child{
-                  height: 151px;
+                height:418px;
                 // background:orange ;
               }
             }
 
           > div:last-child{
-            display: flex;
+            // display: flex;
+            flex-flow: wrap;
             align-items: center;
             justify-content: flex-start;
             padding-left: 27px;
-            height: 85px;
+            height: 232px;
             background: white ;
+            padding-top: 45px;
 
             p{
              color: #01bc9a; 
-             font-size: 26px;
+             font-size: 4.25rem;
              display: flex;
-             align-items: center;
              font-family: GmarketSansTTFBold ,sans-serif;
+             margin-bottom: 20px;
             }
 
             p::after{
               content: "";
               display: block;
-              height: 23px;
+              height: 63px;
               width: 1px;
               background:#5e6480;
               margin:0 10px;
@@ -162,7 +160,7 @@ export default {
             
             span{
               color: #0d1741;
-              font-size: 26px;
+              font-size: 3.125rem;
               font-family: GmarketSansTTFMedium ,sans-serif;
             }
           }

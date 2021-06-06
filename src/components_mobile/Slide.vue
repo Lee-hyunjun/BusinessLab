@@ -1,5 +1,5 @@
 <template>
-  <div class="mainSlide">
+  <div class="slide_m">
      
     <div class="slideButton">
       <img @click="slideButton(1)" class="arrow1" src="../assets/arrow.png" alt="arrow">
@@ -11,7 +11,8 @@
           <span>Why Business Design Lab?</span>
           <p>잘하는 것을 더 잘하게, </p>
           <p>하고 싶은 것을 시작할 수 있게,</p>
-          <p>전문가들의 노하우와 빅데이터 분석을 통해 </p>
+          <p>전문가들의 노하우와</p>
+          <p>빅데이터 분석을 통해 </p>
           <p>나아갈 방향을 제시합니다.</p>
         </div>
       </div>
@@ -161,115 +162,118 @@ export default {
     // font-size: 30px;
     // border-radius: 10px;
   }
+
+  .slide_m{
+    height: 2216px;
   
-  .mainSlide{
-
   
-  .slideImgs{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-  }
-    .slideButton{
-      position: absolute;
-      top:37%;
-      padding: 0 58px;
+    .slideImgs{
       width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      z-index: 1000;
-
-      img:hover{
-        cursor: pointer;
-      }
-
-      .arrow1{
-        transform: rotate(180deg);
-      }
-
-    }
-    .slides{
-      max-height: 797px;
-      width: 100%;
-      height: 798px;
+      height: 100%;
+      position: relative;
       overflow: hidden;
-
-      >div:first-child{
-        width: 1920px;
+    }
+      .slideButton{
         position: absolute;
+        top:1080px;
+        padding: 0 58px;
+        width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 80%;
-        animation: TextMove 2s;
-      }
+        justify-content: space-between;
+        z-index: 8;
 
-      .slide1Text{
-        max-width: 1200px;
-        width: 100%;
-        max-height: 246px;
-        height: 100%;
-        margin: 0 auto;
-        z-index: 100;
-        animation: TextOpacity 2s;
-
-
-        span{
-          display: block;
-          color: white;
-          font-size: 20px;
-          margin-bottom: 25px;
-          font-family: GmarketSansTTFMedium ,sans-serif;
-          font-size: 1.25rem;
+        img:hover{
+          cursor: pointer;
         }
 
-        p{
-          font-size: 2.8125rem;
-          font-weight: bold;
-          color: #01bc9a;
-          font-family: GmarketSansTTFBold ,sans-serif;
+        .arrow1{
+          transform: rotate(180deg);
         }
-        
-      }
 
-      .slide1{
-        background-image: url("../assets/slide/slide1.png");
-        width: 100%;
-        height: 100%;
-        transition: 2s;
-        opacity: 0;
-        position: absolute;
-        top:0;
-        left: 0%;
-        background-repeat: no-repeat;
-        transform:scale(1.25);
       }
-      .slide2{
-        background-image: url("../assets/slide/slide2.png");
+      .slides{
         width: 100%;
-        height: 100%;
-        transition: 2s;
-        opacity: 0;
-        position: absolute;
-        top:0;
-        left: 0%;
-        background-repeat: no-repeat;
-        transform:scale(1.25);
+    height: 100%;
+        overflow: hidden;
+
+        >div:first-child{
+          width: 1200px;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+            height: 2216px;
+          animation: TextMove 2s;
+          z-index: 5;
+        }
+
+        .slide1Text{
+          max-width: 1060px;
+          width: 100%;
+          max-height: 246px;
+          height: 100%;
+          margin: 0 auto;
+          z-index: 10;
+          animation: TextOpacity 2s;
+          position: absolute;
+          top: 513PX;
+
+
+          span{
+            display: block;
+            color: white;
+            font-size: 20px;
+            margin-bottom: 25px;
+            font-family: GmarketSansTTFMedium ,sans-serif;
+            font-size: 3.75rem;
+          }
+
+          p{
+            font-size: 4.375rem;
+            font-weight: bold;
+            color: white;
+            font-family: GmarketSansTTFBold ,sans-serif;
+          }
+          
+        }
+
+        .slide1{
+          background-image: url("../assets/mobile/slide/1.png");
+          width: 100%;
+          height: 100%;
+          transition: 2s;
+          opacity: 0;
+          position: absolute;
+          top:0;
+          left: 0%;
+          background-repeat: no-repeat;
+          transform:scale(1.25);
+        }
+        .slide2{
+          background-image: url("../assets/mobile/slide/1.png");
+          width: 100%;
+          height: 100%;
+          transition: 2s;
+          opacity: 0;
+          position: absolute;
+          top:0;
+          left: 0%;
+          background-repeat: no-repeat;
+          transform:scale(1.25);
+        }
+        .slide3{
+          background-image: url("../assets/mobile/slide/1.png");
+          width: 100%;
+          height: 100%;
+          transition: 2s;
+          opacity: 0;
+          position: absolute;
+          top:0;
+          left: 0%;
+          background-repeat: no-repeat;
+          transform:scale(1.25);
+        }
       }
-      .slide3{
-        background-image: url("../assets/slide/slide3.png");
-        width: 100%;
-        height: 100%;
-        transition: 2s;
-        opacity: 0;
-        position: absolute;
-        top:0;
-        left: 0%;
-        background-repeat: no-repeat;
-        transform:scale(1.25);
-      }
-    }
   }
 </style>
