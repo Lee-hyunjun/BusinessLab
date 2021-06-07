@@ -16,7 +16,7 @@ const routes = [
       component: Main
     },
     {
-      path: '/m',
+      path: '/index',
       component: Mobile
     },
 ];

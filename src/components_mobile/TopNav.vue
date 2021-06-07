@@ -95,7 +95,7 @@ export default {
       top: 70px;
       left: 70px;
       >img{
-        width: 450px;     
+        width: 40vw;     
       }
     }
 

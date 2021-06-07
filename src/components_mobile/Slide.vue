@@ -223,14 +223,13 @@ export default {
           span{
             display: block;
             color: white;
-            font-size: 20px;
             margin-bottom: 25px;
             font-family: GmarketSansTTFMedium ,sans-serif;
-            font-size: 3.75rem;
+            font-size: 3.75vw;
           }
 
           p{
-            font-size: 4.375rem;
+            font-size: 4.375vw;
             font-weight: bold;
             color: white;
             font-family: GmarketSansTTFBold ,sans-serif;
