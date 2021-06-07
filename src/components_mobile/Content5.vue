@@ -26,7 +26,8 @@ export default {
 
   .content5Main_m{
     width: 100%;
-    height: 1031px;
+        height: 1031px;
+
     background-image:url('../assets/mobile/content5/map.png');
     // background-position-x: -360px;
     background-repeat: no-repeat;

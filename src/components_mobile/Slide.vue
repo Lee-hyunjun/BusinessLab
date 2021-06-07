@@ -144,27 +144,8 @@ export default {
     animation: TextOpacity 2s;
   }
 
-
-
-  .hooper{
-    height: 100%;
-  }
-  .hooper-slide {
-    width: 100%;
-    height: 100%;
-    background-color: #62caaa;
-    // padding: 20px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // color: #fff;
-    // border: 2px solid #fff;
-    // font-size: 30px;
-    // border-radius: 10px;
-  }
-
   .slide_m{
-    height: 2216px;
+    height: 190vw;
   
   
     .slideImgs{
@@ -175,7 +156,7 @@ export default {
     }
       .slideButton{
         position: absolute;
-        top:1080px;
+        top:100vw;
         padding: 0 58px;
         width: 100%;
         display: flex;
@@ -194,7 +175,7 @@ export default {
       }
       .slides{
         width: 100%;
-    height: 100%;
+        height: 100%;
         overflow: hidden;
 
         >div:first-child{
@@ -203,7 +184,7 @@ export default {
           display: flex;
           align-items: center;
           justify-content: center;
-            height: 2216px;
+            // height: 2216px;
           animation: TextMove 2s;
           z-index: 5;
         }
@@ -217,7 +198,7 @@ export default {
           z-index: 10;
           animation: TextOpacity 2s;
           position: absolute;
-          top: 513PX;
+          top: 60vw;
 
 
           span{

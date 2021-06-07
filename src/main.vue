@@ -37,7 +37,10 @@ export default {
 </script>
 
 <style lang="scss">
-
+  html{
+    font-size: 16px;
+  }
+  
   @font-face{
     src: url('./assets/fonts/GmarketSansTTF/GmarketSansTTFMedium.ttf');
     font-family: 'GmarketSansTTFMedium';

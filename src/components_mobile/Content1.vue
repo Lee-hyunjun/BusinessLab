@@ -74,9 +74,10 @@ export default {
   .mainContent_m{
     max-width: 1200px;
     width: 100%;
-    height: 2500px;
     // background-image: url("../assets/backBuilding.png");
-
+    h1{
+      font-size: 5vw;
+    }
     > div{
       margin: 0 auto;
       max-width: 1060px;
@@ -91,7 +92,6 @@ export default {
 
       > div{
         width: 100%;
-        height: 235px;
         display: flex;
         flex-flow: wrap;
         align-items: center;
@@ -99,9 +99,11 @@ export default {
 
         >div{
           overflow: hidden;
-          height: 650px;
-          width: 495px;
+          height: 53vw;
+          min-width: 430px;
+          width: 41vw;
           box-shadow:3px 10px 20px #d8d8d8;
+          margin: 0 auto;
           margin-bottom: 90px;
 
           .image1{
@@ -125,6 +127,7 @@ export default {
 
             >div{
               overflow: hidden;
+              height: 65%;
               > div:first-child{
                 height:418px;
                 // background:orange ;
@@ -137,13 +140,13 @@ export default {
             align-items: center;
             justify-content: flex-start;
             padding-left: 27px;
-            height: 232px;
+            height: 35%;
             background: white ;
-            padding-top: 45px;
+            padding-top: 2vw;
 
             p{
              color: #01bc9a; 
-             font-size: 4.25rem;
+             font-size: 5vw;
              display: flex;
              font-family: GmarketSansTTFBold ,sans-serif;
              margin-bottom: 20px;
@@ -152,7 +155,7 @@ export default {
             p::after{
               content: "";
               display: block;
-              height: 63px;
+              height: 5vw;
               width: 1px;
               background:#5e6480;
               margin:0 10px;
@@ -160,7 +163,7 @@ export default {
             
             span{
               color: #0d1741;
-              font-size: 3.125rem;
+              font-size: 4vw;
               font-family: GmarketSansTTFMedium ,sans-serif;
             }
           }

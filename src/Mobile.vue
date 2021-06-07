@@ -81,5 +81,10 @@ export default {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+    
+
+    >*{
+      font-size: 1.5vw;
+    }
   }
 </style>

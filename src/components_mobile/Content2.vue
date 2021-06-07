@@ -83,10 +83,9 @@ export default {
 
 // 1rem = 16
   .content2Main_m{
-    padding-top: 195px;
+    padding-top: 15vw;
     max-width: 1396px;
     width: 100%;
-    height:4980px;
     background-image: url("../assets/backDot.png");
     background-position-y: 124px;
     background-repeat: no-repeat;
@@ -103,7 +102,7 @@ export default {
         display:flex;
         justify-content: flex-start;
         align-items: center;
-        font-size: 4.6875rem;
+        font-size: 6vw;
         color: #0d1741;
         // margin-top: 195px;
         margin-bottom: 15px;
@@ -116,7 +115,7 @@ export default {
         display:flex;
         justify-content: flex-start;
         align-items: center;
-        font-size:2.5rem;
+        font-size:3vw;
         color: #0d1741;
         font-weight: bold;
         margin-bottom: 65px;
@@ -135,13 +134,13 @@ export default {
         background:white;
         max-width: 1060px;
         width: 100%;
-        height: 676px;
+        height: 55vw;
         border: 1px solid #e8e9eb;
         transition: .5s;
         position: relative;
         overflow: hidden;
-        padding-left: 35px;
-        padding-top: 42px;
+        padding-left: 4vw;
+        padding-top: 4vw;
         z-index: 5  ;
 
         > div{
@@ -150,7 +149,7 @@ export default {
           transition: .3s;
 
           >div{
-            height: 160px;
+            height: 15vw;
             position: relative;
 
             >img:first-child{
@@ -163,6 +162,7 @@ export default {
             }
 
             >img{
+              width: 10vw;
               position: absolute;
               top: 0;
               left: 0;
@@ -172,16 +172,16 @@ export default {
 
         span{
           display: block;
-          font-size: 4.25rem;
+          font-size: 7vw;
           font-weight: bold;
-          margin-top: 28px;
-          margin-bottom: 15px;
+          margin-top: 2vw;
+          margin-bottom: 1vw;
           color: #525871;
           font-family: GmarketSansTTFMedium ,sans-serif;
         }
 
         p{
-          font-size: 3rem;
+          font-size: 4vw;
           color: #525871;
           @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
           font-family: 'Noto Sans CJK KR', Noto Sans KR, sans-serif;

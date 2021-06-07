@@ -315,30 +315,86 @@
       <div class="footContent">
         <p>Partners</p>
         <div>
-          <div class="footItem">
-            <div>
-              <img src="../assets/mobile/content4/logo1.png" alt="icon">
+          <div>
+            <div class="footItem">
+              <div>
+                <img src="../assets/content4/MviaLogo.png" alt="icon">
+              </div>
+              <div>
+                <p>중소혁신벤처기업협회</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div>
+                <img @click="PageChange(1)" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange(1)" src="../assets/content4/button_hover.png" alt="button">
+              </div>
             </div>
-            <div>
-              <p>중소혁신벤처기업협회</p>
-              <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+            <div class="footItem">
+              <div>
+                <img src="../assets/content4/3.png" alt="icon">
+              </div>
+              <div>
+                <p>블루오션투자자협회</p>
+                <span>Blue Ocean Investor Association</span>
+              </div>
+              <div>
+                <img @click="PageChange(2)" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange(2)" src="../assets/content4/button_hover.png" alt="button">
+              </div>
             </div>
-            <div>
-              <p></p>
+            <div class="footItem">
+              <div>
+                <img src="../assets/content4/2.png" alt="icon">
+              </div>
+              <div>
+                <p>성능검증연구협의회</p>
+                <span>Research association for ICT <br>performance verification</span>
+              </div>
+              <div>
+                <img @click="PageChange(3)" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange(3)" src="../assets/content4/button_hover.png" alt="button">
+              </div>
             </div>
-          </div>
-          <div class="footItem">
-            <div>
-              <img src="../assets/mobile/content4/logo2.png" alt="icon">
+            <div class="footItem">
+              <div>
+                <img src="../assets/content4/3.png" alt="icon">
+              </div>
+              <div>
+                <p>블루오션벤처스</p>
+                <span>Blue Ocean Ventures</span>
+              </div>
+              <div>
+                <img @click="PageChange(4)" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange(4)" src="../assets/content4/button_hover.png" alt="button">
+              </div>
             </div>
-            <div>
-              <p>블루오션투자자협회</p>
-              <span>Blue Ocean Investor Association</span>
+            <div class="footItem">
+              <div>
+                <img src="../assets/content4/3.png" alt="icon">
+              </div>
+              <div>
+                <p>블루오션플래닛</p>
+                <span>Blue Ocean Planet</span>
+              </div>
+              <div>
+                <img @click="PageChange(5)" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange(5)" src="../assets/content4/button_hover.png" alt="button">
+              </div>
             </div>
-            <div>
-              <p></p>
+            <div class="footItem">
+              <div>
+                <img src="../assets/content4/3.png" alt="icon">
+              </div>
+              <div>
+                <p>블루오션미디어</p>
+                <span>Blue Ocean Media</span>
+              </div>
+              <div>
+                <img @click="PageChange(6)" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange(6)" src="../assets/content4/button_hover.png" alt="button">
+              </div>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
     </div>
@@ -349,8 +405,42 @@
 
 export default {
   components: {
+  },
+
+
+ methods:{
+    PageChange(num){
+      let url = "";
+      switch (num) {
+
+          
+        case 1:
+          url = "http://www.mvia.or.kr/"
+          break;
+        case 2:
+          url = "http://lueocean-ventures.kr"
+          break;
+        case 3:
+          url = "http://ictpvr.or.kr/"
+          break;
+        case 4:
+          url = "http://lueocean-ventures.kr"
+          break;
+        case 5:
+          url = "http://lueocean-planet.kr"
+          break;
+        case 6:
+          url = "http://blueocean-media.kr"
+          break;
+      
+        default:
+          break;
+      }
+      window.open(url);
+    }
   }
 }
+
 </script>
 
 <style lang="scss">
@@ -360,15 +450,14 @@ export default {
     position: relative;
     max-width: 1200px;
     width: 100%;
-    height: 16300px;
     margin: 0 auto;
+    margin-bottom: 500px;
 
     >div{
-      position: absolute;
+      // position: absolute;
       top:0;
       // max-width: 1060px;
       width: 100%;
-      height: 2392px;
       background: white;
       padding-top: 13px;        
 
@@ -376,7 +465,7 @@ export default {
         max-width: 1060px;
         width: 100%;
         color: #0d1741;
-        font-size: 4.6875rem; 
+        font-size: 10vw; 
         margin-bottom: 25px;
         margin: 0 auto;
         font-family: 'GmarketSansTTFBold' ,sans-serif;
@@ -386,7 +475,7 @@ export default {
         max-width: 1060px;
         width: 100%;
         color: #0d1741;
-        font-size: 2.5rem;
+        font-size: 3.6vw;
         display: block;
         margin: 0 auto;
         margin-bottom: 82px;
@@ -397,11 +486,15 @@ export default {
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        max-width: 1060px;
+        max-width: 88.334vw;
         width: 100%;
         flex-flow: wrap;
         margin: 0 auto;
         margin-bottom: 60px;
+
+        >div{
+          width: 100%;
+        }
 
         // .item1{height: 678px;}
         // .item2{height: 475px;}
@@ -410,13 +503,10 @@ export default {
         // .item5{height: 937px;}
         // .item6{height: 843px;}
 
-        .item6{
-          height: 2355px;
-        }
 
         .content4Item{
           box-shadow:0px 0px 22px #dcd9d9;
-          width: 1060px;
+          width: 100%;
           padding-top: 30px;
           background: #f3f4f5;
           overflow: hidden;
@@ -427,12 +517,12 @@ export default {
             align-items: flex-start;
 
             p{
-              width: 175px;
-              height: 170px;
-              font-size: 7rem;
+              width: 17vw;
+              height: 16vw;
+              font-size: 11vw;
               color: #01bc9a;
-              border-top-right-radius:30px;
-              border-bottom-right-radius:30px;
+              border-top-right-radius:3vw;
+              border-bottom-right-radius:3vw;
               background: #0d1741;
               display: flex;
               align-items: center;
@@ -445,9 +535,9 @@ export default {
 
             p::after{
               content: "";
-              top: 161px;
+              top: 10vw;
               position: absolute;
-              left: 145px;
+              left: 13vw;
               width: 6px;
               height: 10000%;
               background: #0d1741;
@@ -457,18 +547,18 @@ export default {
               @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
               font-family: 'Noto Sans CJK KR', Noto Sans KR, sans-serif;
               display: block;
-              font-size: 4rem;
+              font-size: 4.5vw;
               color: #020024;
               font-weight: 500;
-              line-height: 80px;
+              line-height: 7vw;
             }
           }
 
           >div:not(:first-child){
-            padding-left: 205px;
+            padding-left: 17.5vw;
             
             >p{
-              font-size: 4.5rem;
+              font-size: 6.5vw;
               position: relative;
               font-family: BebasNeue-Regular;
               margin-bottom: 14px;
@@ -477,11 +567,11 @@ export default {
               content: "";
               position: absolute;
               top: 16px;
-              left: -87px;
-              width: 30px;
-              height: 30px;
+              left: -6.4vw;
+              width: 2vw;
+              height: 2vw;
               background: #f3f4f5;
-              border: 15px solid #0d1741;
+              border: 1.5vw solid #0d1741;
               border-radius: 100%;
             }
 
@@ -489,12 +579,12 @@ export default {
               margin-bottom: 70px;
 
               p{
-                font-size: 2.35rem;
+                font-size: 3.35vw;
                 font-family: 'Objektiv Mk2 W03 Bold';
                 font-weight: bold;
               }
               span{
-                font-size: 2rem;
+                font-size: 3vw;
                 font-family: 'Objektiv Mk2 W03 Bold';
               }
             }
@@ -519,6 +609,7 @@ export default {
         position: relative;
         max-width: 1060px;
         width: 100%;
+        height: 80vw;
         margin:0 auto;
 
         >p{
@@ -528,112 +619,104 @@ export default {
           width: 100%;
           justify-content: flex-start;
           margin: 0 auto;
-          padding-top: 255px;
-          font-size: 4.6875rem;
+          padding-top: 12vw;
+          font-size: 10vw;
           font-family: GmarketSansTTFBold ,sans-serif;
         }
-        >div{          
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
+        >div::-webkit-scrollbar{
+          display: none;
+          scrollbar-width: none;  
+        }
+        >div {
+          position: relative;
+          overflow-x: scroll;
+          overflow-y: hidden;
           width: 100%;
-          position: absolute;
-          top: 380px;
-          
-          .footItem{
-            border-radius: 15px;
-            background: white;
-            max-width: 1060px;
-            width: 48%;
-            box-shadow:0px 15px 22px #e0e0e0;
-            height: 566px;
-            padding-top: 21px;
-            padding-left: 36px;
-
-            >div:first-child{
-              height: 230px;
-              display: flex;
-              align-items: center;
-              margin-bottom: 10px;
-            }
-
-            >div:nth-child(2){
-              height: 130px;
-              margin-bottom: 30px;
-
-              >p{
-                font-size: 2.75rem;
-                font-weight: bold;
-                color: #0d1741;
-                font-family: 'GmarketSansTTFMedium' ,sans-serif;
-              }
-
-              >span{
-                font-size: 1.25rem;
-                display: flex;
-                color: #0d1741;
-                font-family: 'GmarketSansTTFMedium' ,sans-serif;
-              }
-            }
+          height: 67vw;
+          >div{          
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 300vw;
+            height: 100%;
+            position: absolute;
+            top: 1vw;
             
-            >div:last-child{
-              width: 100px;
-              height: 100px;
-              border-radius: 100%;
-              border: 5px solid #0fca87;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              transition: .3s;
-              cursor: pointer;
+            .footItem{
+              
+              border-radius: 15px;
+              background: white;
+              // max-width: 1060px;
+              width: 15.5%;
+              box-shadow:0px 15px 22px #e0e0e0;
+              height: 80%;
+              padding-top: 21px;
+              padding-left: 36px;
 
-              p{
-                height: 5px;
-                width: 55px;
-                border-radius: 15px;
-                background: #19234b;
-                position:relative;
-                transition: .3s;
+              >div:first-child{
+                height: 30%;
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
               }
 
-              p::after{
-                content: "";
-                width: 30px;
-                height: 5px;
-                background: #19234b;
-                border-radius: 10px;
-                position: absolute;
-                right: -2px;
-                top:-11px;
-                transform: rotate(45deg);
-                transition: .3s;
+              >div:nth-child(2){
+                height: 20%;
+                margin-bottom: 30px;
+
+                >p{
+                  font-size: 3.5vw;
+                  font-weight: bold;
+                  color: #0d1741;
+                  font-family: 'GmarketSansTTFMedium' ,sans-serif;
+                }
+
+                >span{
+                  font-size: 1.5vw;
+                  display: flex;
+                  color: #0d1741;
+                  font-family: 'GmarketSansTTFMedium' ,sans-serif;
+                }
+
+                
+              }
+              
+              >div:last-child{
+                position: relative;
+
+                >img{
+                  width: 10vw;
+                  transition: .3s;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                }
+                >img:last-child{
+                  opacity: 0;
+                }
+
               }
 
-              p::before{
-                content: "";
-                width: 30px;
-                height: 5px;
-                background: #19234b;
-                position: absolute;
-                right: -2px;
-                border-radius: 10px;
-                top: 11px;
-                transform: rotate(-45deg);
-                transition: .3s;
+              >div:last-child:hover {
+                >img:first-child{
+                  opacity: 0;
+                }
+                img:last-child{
+                  opacity: 1;
+                }
               }
 
-            }
+              >div:last-child:hover{
+                background: #0fca87;
+                border: 1px solid white;
 
-            >div:last-child:hover{
-              background: #0fca87;
-              border: 1px solid white;
-
-              >p,p::after,p::before{
-                background: white;
+                >p,p::after,p::before{
+                  background: white;
+                }
               }
             }
           }
-        }
+        }  
       }
     }
   }
