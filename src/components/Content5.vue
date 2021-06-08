@@ -1,5 +1,6 @@
 <template>
   <div class="content5Main">
+    <img @click="marker" src="../assets/marker.png" alt="marker">
     <div>
       <div class="textBox">
         <div>
@@ -19,6 +20,11 @@
 
 export default {
   components: {
+  },
+  methods:{
+    marker(){
+      location.href = 'http://kko.to/Z4uHoUCDT';
+    }
   }
 }
 </script>
@@ -32,6 +38,15 @@ export default {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    position: relative;
+    z-index: 1;
+    
+    >img{
+      position: absolute;
+    left: 54%;
+    top: 33%;
+    width: 58px;
+    }
 
     >div{
       max-width: 1200px;

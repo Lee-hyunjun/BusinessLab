@@ -587,6 +587,8 @@ export default {
           font-family: GmarketSansTTFBold ,sans-serif;
         }
         >div{
+          z-index: 2;
+          background: white;
           box-shadow:0px 0px 22px #e0e0e0;
           height: 164px;
           display: flex;
