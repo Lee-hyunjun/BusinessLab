@@ -41,7 +41,7 @@ export default {
     .textBox{
       max-width: 450px;
       width: 100%;
-      height: 300px;
+      height: 320px;
       background: #0d1741;
       padding-top: 48px;
 
