@@ -100,7 +100,6 @@ export default {
         >div{
           overflow: hidden;
           height: 53vw;
-          min-width: 430px;
           width: 41vw;
           box-shadow:3px 10px 20px #d8d8d8;
           margin: 0 auto;
@@ -129,6 +128,7 @@ export default {
               overflow: hidden;
               height: 65%;
               > div:first-child{
+                background-size: 115%;
                 height:418px;
                 // background:orange ;
               }
@@ -139,17 +139,17 @@ export default {
             flex-flow: wrap;
             align-items: center;
             justify-content: flex-start;
-            padding-left: 27px;
+            padding-left: 4vw;
             height: 35%;
             background: white ;
-            padding-top: 2vw;
+            padding-top: 4vw;
 
             p{
              color: #01bc9a; 
              font-size: 5vw;
              display: flex;
              font-family: GmarketSansTTFBold ,sans-serif;
-             margin-bottom: 20px;
+             margin-bottom: 2vw;
             }
 
             p::after{

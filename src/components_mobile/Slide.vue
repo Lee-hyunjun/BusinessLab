@@ -55,6 +55,10 @@ export default {
     setTimeout(() => {
       this.slideButton(0)
     }, 10);
+
+    setInterval(() => {
+      this.slideButton(2);
+    }, 5000);
   },
 
   methods:{
@@ -231,7 +235,7 @@ export default {
           transform:scale(1.25);
         }
         .slide2{
-          background-image: url("../assets/mobile/slide/1.png");
+          background-image: url("../assets/mobile/slide/2.png");
           width: 100%;
           height: 100%;
           transition: 2s;
@@ -243,7 +247,7 @@ export default {
           transform:scale(1.25);
         }
         .slide3{
-          background-image: url("../assets/mobile/slide/1.png");
+          background-image: url("../assets/mobile/slide/3.png");
           width: 100%;
           height: 100%;
           transition: 2s;

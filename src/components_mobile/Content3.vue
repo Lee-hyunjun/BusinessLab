@@ -3,7 +3,7 @@
     <div>
       <div class="fonts">
         <p>Our Goal</p>
-        <span>With more than 20 years of know-how,<br>we will be your business success partner.</span>
+        <span>With more than 20 years of know-how, we will be your business success partner.</span>
       </div>
       <div class="contentBox">
         <div>
@@ -12,14 +12,14 @@
               <img src="../assets/mobile/content3/1.png" alt="img">
               <p>Analysis</p>
             </div>
-            <p>기업 전체의 비즈니스를 한 눈에 볼 수 있게 <br> 함으로써 기업내의 자원과 노력을 효과적으로 <br> 배분할 수 있게 합니다.</p>
+            <p>기업 전체의 비즈니스를 한 눈에 볼 수 있게 함으로써 기업내의 자원과 노력을 효과적으로 배분할 수 있게 합니다.</p>
           </div>
           <div class="boxItem">
             <div>
               <img src="../assets/mobile/content3/2.png" alt="img">
               <p>Optimization</p>
             </div>
-            <p>현재를 위한 사업 최적화, 내일을 위한 사업기회 발굴 <br>등 균형을 맞출 수 있게 합니다.</p>
+            <p>현재를 위한 사업 최적화, 내일을 위한 사업기회 발굴  등 균형을 맞출 수 있게 합니다.</p>
           </div>
         </div>
         <div>
@@ -28,14 +28,14 @@
               <img src="../assets/mobile/content3/3.png" alt="img">
               <p>Insight</p>
             </div>
-            <p>아웃사이드 (고객, 시장, 유통채널) 의 요구분석을<br>이해하고 이들의 시각을 통해 인사이드 (제품, <br>지식, 자원)을 볼 수 있게 합니다.</p>
+            <p>아웃사이드 (고객, 시장, 유통채널) 의 요구분석을 이해하고 이들의 시각을 통해 인사이드 (제품,  지식, 자원)을 볼 수 있게 합니다.</p>
           </div>
           <div class="boxItem">
             <div>
               <img src="../assets/mobile/content3/4.png" alt="img">
               <p>Know-how</p>
             </div>
-            <p>20년 이상 해당분야 노하우 및 실적을 보유한 <br>전문위원을 통해 단순 가이드가 아닌 실제 사례를<br>통한 정확한 진단과 분석을 제시합니다.</p>
+            <p>20년 이상 해당분야 노하우 및 실적을 보유한  전문위원을 통해 단순 가이드가 아닌 실제 사례를 통한 정확한 진단과 분석을 제시합니다.</p>
           </div>
         </div>
       </div>
@@ -108,8 +108,9 @@ export default {
         height: 45vw;
         background: #101a44;
         border: 1px solid #212c57;
-        padding-left: 8vw;
+        padding-left: 6vw;
         padding-top: 6vw;
+        padding-right: 6vw;
 
         >div{
           display: flex;

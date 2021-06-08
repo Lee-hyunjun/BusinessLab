@@ -54,6 +54,10 @@ export default {
     setTimeout(() => {
       this.slideButton(0)
     }, 10);
+    
+    setInterval(() => {
+      this.slideButton(2);
+    }, 5000);
   },
 
   methods:{

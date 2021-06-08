@@ -1,7 +1,7 @@
 <template>
   <div class="content2Main">
     <div>
-      <span>비즈니스 디자인 연구소 서비스대상</span>
+      <span>비즈니스디자인연구소 서비스대상</span>
       <p>Who is the target of <br> Business Design Lab?</p>
       <div class="itemsTop">
         <div class="content2_Item">

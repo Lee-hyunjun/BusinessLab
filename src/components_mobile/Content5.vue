@@ -26,10 +26,9 @@ export default {
 
   .content5Main_m{
     width: 100%;
-        height: 1031px;
-
+    height: 90vw;
+    background-size: 100%;
     background-image:url('../assets/mobile/content5/map.png');
-    // background-position-x: -360px;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
@@ -44,17 +43,17 @@ export default {
     .textBox{
       position: absolute;
       max-width: 1060px;
-      width: 100%;
-      height: 680px;
+      width: 88.334vw;
+      height: 56.67vw;
       background: #0d1741;
-      padding-top: 95px;
-      top: -400px;
-      left: 70px;
+      padding-top: 8vw;
+      top: -30vw;
+      left: 6vw;
 
       p{
         color:#01bc9a;
-        font-size: 4.6875rem;
-        margin-bottom: 50px;
+        font-size: 6vw;
+        margin-bottom: 3vw;
         font-family: GmarketSansTTFMedium , sans-serif;
       }
 
@@ -62,7 +61,7 @@ export default {
         max-width:1060px;
         width: 100%;
         // margin: 0 auto;
-        padding-left: 55px;
+        padding-left: 6vw;
 
         span:nth-child(4){
           margin-bottom: 15px;
@@ -73,15 +72,15 @@ export default {
           width: 90%;
           height: 4px;
           background: #595960;
-          margin-top: 40px;
-          margin-bottom: 40px;
+          margin-top: 2vw;
+          margin-bottom: 2vw;
         }
       }
       
       span{
         display: block;
         color:#aeaec4;
-        font-size: 3.125rem;
+        font-size: 4.125vw;
         font-family: GmarketSansTTFMedium , sans-serif;
       }
     }

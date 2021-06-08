@@ -451,7 +451,7 @@ export default {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 500px;
+    margin-bottom: 50vw;
 
     >div{
       // position: absolute;
@@ -601,7 +601,9 @@ export default {
         margin-top: 40px;
         max-width:1200px;
         width: 100%;
-        height: 845px;
+        height: 70.6vw;
+        background-size: 100%;
+        background-repeat: no-repeat;
         background-image:url("../assets/mobile/content4/img.png");
       }
 
@@ -641,6 +643,7 @@ export default {
             height: 100%;
             position: absolute;
             top: 1vw;
+            left:6vw;
             
             .footItem{
               
@@ -650,8 +653,8 @@ export default {
               width: 15.5%;
               box-shadow:0px 15px 22px #e0e0e0;
               height: 80%;
-              padding-top: 21px;
-              padding-left: 36px;
+              padding-top: 1vw;
+              padding-left: 3vw;
 
               >div:first-child{
                 height: 30%;
