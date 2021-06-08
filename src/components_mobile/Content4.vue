@@ -436,7 +436,7 @@ export default {
         default:
           break;
       }
-      window.open(url);
+      location.href = url;
     }
   }
 }

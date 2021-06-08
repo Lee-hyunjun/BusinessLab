@@ -324,7 +324,7 @@
               <p>중소혁신벤처기업협회</p>
               <span>Small&Medium Venture Innovation <br>enterprise Association</span>
             </div>
-            <div>
+            <div @click="PageChange(1)">
               <p></p>
             </div>
           </div>
@@ -336,7 +336,7 @@
               <p>블루오션투자자협회</p>
               <span>Blue Ocean Investor Association</span>
             </div>
-            <div>
+            <div @click="PageChange(2)">
               <p></p>
             </div>
           </div>
@@ -348,7 +348,7 @@
               <p>성능검증연구협의회</p>
               <span>Research association for ICT <br>performance verification</span>
             </div>
-            <div>
+            <div @click="PageChange(3)">
               <p></p>
             </div>
           </div>
@@ -360,7 +360,7 @@
               <p>블루오션벤처스</p>
               <span>Blue Ocean Ventures</span>
             </div>
-            <div>
+            <div @click="PageChange(4)">
               <p></p>
             </div>
           </div>
@@ -372,7 +372,7 @@
               <p>블루오션플래닛</p>
               <span>Blue Ocean Planet</span>
             </div>
-            <div>
+            <div @click="PageChange(5)">
               <p></p>
             </div>
           </div>
@@ -384,7 +384,7 @@
               <p>블루오션미디어</p>
               <span>Blue Ocean Media</span>
             </div>
-            <div>
+            <div @click="PageChange(6)">
               <p></p>
             </div>
           </div>
@@ -398,6 +398,38 @@
 
 export default {
   components: {
+  },
+
+   methods:{
+    PageChange(num){
+      let url = "";
+      switch (num) {
+
+          
+        case 1:
+          url = "http://www.mvia.or.kr/"
+          break;
+        case 2:
+          url = "http://lueocean-ventures.kr"
+          break;
+        case 3:
+          url = "http://ictpvr.or.kr/"
+          break;
+        case 4:
+          url = "http://lueocean-ventures.kr"
+          break;
+        case 5:
+          url = "http://lueocean-planet.kr"
+          break;
+        case 6:
+          url = "http://blueocean-media.kr"
+          break;
+      
+        default:
+          break;
+      }
+      location.href = url;
+    }
   }
 }
 </script>
