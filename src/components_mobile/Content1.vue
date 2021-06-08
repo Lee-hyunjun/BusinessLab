@@ -45,7 +45,7 @@
           </div>
           <div>
             <p>05</p>
-            <span>AI 데이터 가공</span>
+            <span>AI 학습용 데이터 가공</span>
           </div>
         </div>
         <div>
@@ -54,7 +54,7 @@
           </div>
           <div>
             <p>06</p>
-            <span>초기투자</span>
+            <span>초기 투자 유치</span>
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ export default {
             flex-flow: wrap;
             align-items: center;
             justify-content: flex-start;
-            padding-left: 4vw;
+            padding-left: 3vw;
             height: 35%;
             background: white ;
             padding-top: 4vw;
@@ -163,7 +163,7 @@ export default {
             
             span{
               color: #0d1741;
-              font-size: 4vw;
+              font-size: 3.8vw;
               font-family: GmarketSansTTFMedium ,sans-serif;
             }
           }

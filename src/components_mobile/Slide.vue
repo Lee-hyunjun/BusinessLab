@@ -9,11 +9,9 @@
       <div id="TextMove" class="TextMove">
         <div class="slide1Text TextOpacity" id="slide1Text">
           <span>Why Business Design Lab?</span>
-          <p>잘하는 것을 더 잘하게, </p>
-          <p>하고 싶은 것을 시작할 수 있게,</p>
-          <p>전문가들의 노하우와</p>
-          <p>빅데이터 분석을 통해 </p>
-          <p>나아갈 방향을 제시합니다.</p>
+          <p>기업 문제를 함께 고민하고 </p>
+          <p>최고의 전문가들과 최적의 해법을 찾아 </p>
+          <p>기업 성장과 함께 나아갑니다.</p>
         </div>
       </div>
       <div class="slideImgs">

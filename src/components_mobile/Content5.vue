@@ -4,7 +4,8 @@
       <div class="textBox">
         <div>
           <p>Contact</p>
-          <span>서울특별시 종로구 종로 19, 13층 1321호 <br>(종로1가, 르메이에르종로타운)</span>
+          <span style="margin-bottom:2vw;">서울특별시 종로구 종로19, 7층 730호 <br> (종로1가, 르메이에르종로타운)</span>
+          <span>서울특별시 종로구 종로19, 16층 1622호 <br> (종로1가, 르메이에르종로타운)</span>
           <div></div>
           <span>contact@bizdsnlab.com</span>
           <span>www.facebook.com/bizdsnlab</span>

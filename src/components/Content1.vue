@@ -47,7 +47,7 @@
           </div>
           <div>
             <p>05</p>
-            <span>AI 데이터 가공</span>
+            <span>AI 학습용 데이터 가공</span>
           </div>
         </div>
         <div>
@@ -56,7 +56,7 @@
           </div>
           <div>
             <p>06</p>
-            <span>초기투자</span>
+            <span>초기 투자 유치</span>
           </div>
         </div>
       </div>
