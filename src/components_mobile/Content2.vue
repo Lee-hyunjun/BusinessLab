@@ -130,10 +130,10 @@ export default {
       }
       
       .content2_Item{
-        margin-bottom: 10vw;
+        margin-bottom: 5vw;
         background:white;
         max-width: 1060px;
-        width: 100%;
+        width: 90vw;
         height: 55vw;
         border: 1px solid #e8e9eb;
         transition: .5s;

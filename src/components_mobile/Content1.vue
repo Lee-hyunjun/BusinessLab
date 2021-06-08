@@ -95,15 +95,14 @@ export default {
         display: flex;
         flex-flow: wrap;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
 
         >div{
           overflow: hidden;
           height: 53vw;
           width: 41vw;
           box-shadow:3px 10px 20px #d8d8d8;
-          margin: 0 auto;
-          margin-bottom: 6vh;
+          margin-bottom: 5vw;
 
           .image1{
             background-image: url("../assets/mobile/content1/1.png");
@@ -167,6 +166,11 @@ export default {
               font-family: GmarketSansTTFMedium ,sans-serif;
             }
           }
+        }
+        >div:nth-child(1),
+        >div:nth-child(3),
+        >div:nth-child(5){
+          margin-right: 5vw;
         }
 
         >div:hover{

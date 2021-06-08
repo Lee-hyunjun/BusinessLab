@@ -1,4 +1,4 @@
-# my-project
+# bizdsnlab
 
 ## Project setup
 ```
