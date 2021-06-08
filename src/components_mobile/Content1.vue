@@ -103,7 +103,7 @@ export default {
           width: 41vw;
           box-shadow:3px 10px 20px #d8d8d8;
           margin: 0 auto;
-          margin-bottom: 90px;
+          margin-bottom: 6vh;
 
           .image1{
             background-image: url("../assets/mobile/content1/1.png");

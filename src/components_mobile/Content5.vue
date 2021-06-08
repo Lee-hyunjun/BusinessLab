@@ -70,7 +70,7 @@ export default {
 
         >div{
           width: 90%;
-          height: 4px;
+          height: 2px;
           background: #595960;
           margin-top: 2vw;
           margin-bottom: 2vw;

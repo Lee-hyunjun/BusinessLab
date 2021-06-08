@@ -12,6 +12,8 @@
 </template>
 
 <script>
+
+
 import TopNav from './components_mobile/TopNav.vue'
 import Slide from './components_mobile/Slide.vue'
 import Content1 from './components_mobile/Content1.vue'
@@ -32,8 +34,14 @@ export default {
     Content4,
     Content5,
     Footer
-  }
-}
+  },
+
+  created() {
+    if (window.screen.width > 1200) {
+      this.$router.push({ name: "main" });
+    }
+  },
+}  
 </script>
 
 <style lang="scss">

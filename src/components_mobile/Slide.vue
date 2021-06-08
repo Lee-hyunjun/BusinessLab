@@ -64,7 +64,6 @@ export default {
   methods:{
     slideButton(key){
     
-      console.log(document.getElementById("slide1").style.opacity)
 
       if (key === 1) {
         this.slide = this.slide - 1

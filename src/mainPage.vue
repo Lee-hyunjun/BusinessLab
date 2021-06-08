@@ -21,6 +21,8 @@ import Content4 from './components/Content4.vue'
 import Content5 from './components/Content5.vue'
 import Footer from './components/Footer.vue'
 
+// import router from './main.js';
+
 export default {
   name: 'App',
   components: {
@@ -32,7 +34,13 @@ export default {
     Content4,
     Content5,
     Footer
-  }
+  },
+
+  created() {
+    if (window.screen.width <= 1200) {
+      this.$router.push({ name: "mobile" });
+    }
+  },
 }
 </script>
 

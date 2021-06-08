@@ -130,7 +130,7 @@ export default {
       }
       
       .content2_Item{
-        margin-bottom: 74px;
+        margin-bottom: 10vw;
         background:white;
         max-width: 1060px;
         width: 100%;
@@ -139,8 +139,8 @@ export default {
         transition: .5s;
         position: relative;
         overflow: hidden;
-        padding-left: 4vw;
-        padding-top: 4vw;
+        padding-left: 5vw;
+        padding-top: 5vw;
         z-index: 5  ;
 
         > div{

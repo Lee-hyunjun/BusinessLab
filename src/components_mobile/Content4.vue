@@ -612,7 +612,7 @@ export default {
         max-width: 1060px;
         width: 100%;
         height: 80vw;
-        margin:0 auto;
+        // margin:0 auto;
 
         >p{
           margin-bottom: 30px;
