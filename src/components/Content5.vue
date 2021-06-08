@@ -38,14 +38,14 @@ export default {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    position: relative;
+    // position: relative;
     z-index: 1;
     
     >img{
       position: absolute;
-    left: 54%;
-    top: 33%;
-    width: 58px;
+      left: 934px;
+      top: 5852px;
+      width: 58px;
     }
 
     >div{
