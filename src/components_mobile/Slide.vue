@@ -157,7 +157,7 @@ export default {
     }
       .slideButton{
         position: absolute;
-        top:100vw;
+        top:76vw;
         padding: 0 58px;
         width: 100%;
         display: flex;
@@ -199,7 +199,7 @@ export default {
           z-index: 10;
           animation: TextOpacity 2s;
           position: absolute;
-          top: 60vw;
+          top: 43vw;
 
 
           span{
