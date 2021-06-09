@@ -1,10 +1,10 @@
 <template>
   <div class="slide_m">
      
-    <div class="slideButton">
+    <!-- <div class="slideButton">
       <img @click="slideButton(1)" class="arrow1" src="../assets/arrow.png" alt="arrow">
       <img @click="slideButton(2)" class="arrow2" src="../assets/arrow.png" alt="arrow">
-    </div>
+    </div> -->
     <div class="slides">
       <div id="TextMove" class="TextMove">
         <div class="slide1Text TextOpacity" id="slide1Text">
@@ -157,13 +157,17 @@ export default {
     }
       .slideButton{
         position: absolute;
-        top:76vw;
-        padding: 0 58px;
+        top:70vw;
+        padding: 0 4vw;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         z-index: 8;
+
+        img{
+          width:1.7vw;
+        }
 
         img:hover{
           cursor: pointer;
@@ -200,12 +204,13 @@ export default {
           animation: TextOpacity 2s;
           position: absolute;
           top: 43vw;
+          left: 6.5vw;
 
 
           span{
             display: block;
             color: white;
-            margin-bottom: 25px;
+            margin-bottom: 3vw;
             font-family: GmarketSansTTFMedium ,sans-serif;
             font-size: 3.75vw;
           }

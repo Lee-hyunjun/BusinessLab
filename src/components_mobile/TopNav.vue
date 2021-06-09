@@ -7,7 +7,6 @@
       <p></p>
       <p></p>
       <p></p>
-      <p></p>
     </div>
     <div class="NavPop">
       <div>
@@ -35,7 +34,7 @@ export default {
 
   methods:{
     open(){
-      document.getElementsByClassName("NavPop")[0].style.display = "flex";
+      document.getElementsByClassName("NavPop")[0].style.display = "block";
     },
 
     close(){
@@ -49,23 +48,23 @@ export default {
           top = 0
           break;
         case 2:
-          top = 800
+          top = document.getElementsByClassName('mainContent_m')[0].offsetTop
           break;
         case 3:
-          top = 1600
+          top = document.getElementsByClassName('content2Main_m')[0].offsetTop
           break;
         case 4:
-          top = 2736
+          top = document.getElementsByClassName('content3Main_m')[0].offsetTop
           break;
         case 5:
-          top = 3235
+          top = document.getElementsByClassName('content4Main_m')[0].offsetTop
           break;
         case 6:
-          top = 5465
+          top = document.getElementsByClassName('content5Main_m')[0].offsetTop - document.getElementsByClassName('footContent')[0].scrollHeight;
           break;
       
         case 7:
-          top = 5465    
+          top = document.getElementsByClassName('content5Main_m')[0].offsetTop
           break;
 
         default:
@@ -76,6 +75,7 @@ export default {
         left: 0,
         behavior: 'smooth'
       });
+      this.close()
     }
   }
 }
@@ -92,28 +92,30 @@ export default {
 
     .NavLogo{
       position: absolute; 
-      top: 70px;
-      left: 70px;
+      top: 9vw;
+      left: 6.5vw;
       >img{
         width: 40vw;     
       }
     }
 
     .NavButton{ 
-      display: none;
-      width: 40px;
+      display: block;
+      // width: 40px;
       height: 40px;
       flex-flow: wrap;
       position: fixed;
-      top: 70px;
-      right: 70px;
+      top: 8vw;
+      right: 7vw;
       z-index: 100;
 
       >p{
-        width: 100%;
-        height: 5px;
+        width: 1.5vw;
+        height: 1.5vw;
         background: white;
-        border-radius: 10px;
+        border-radius: 100%;
+        margin-bottom: 1vw;
+        border: 1px solid #eaeaea;
       }
     } 
     .NavButton:hover{
@@ -124,28 +126,33 @@ export default {
       width: 100%;
       height: 100%;
       position: relative;
-      height: 10000px;
+      height: 1000000px;
       z-index: 1000;
       display: none;
       justify-content: flex-end;
 
       >div{
-        width: 690px;
+        position: fixed;
+        top:0;
+        right:0;
+        width: 50vw;
         height: 100%;
         background: #0d1741;
-        padding-left: 75px;
-        padding-top: 70px;
+        margin-bottom: 5vw;
+        padding-left: 4vw;
+        padding-top: 5vw;
 
         >img{
-          margin-bottom: 100px;
-          padding-left: 465px;
+          margin-bottom: 5vw;
+          padding-left: 35vw;
+          width: 43vw;
         }
 
         >p{
-          font-size: 3.125rem;
+          font-size: 5.125vw;
           color: white;
           font-family: 'Objektiv Mk2 W03 Medium' , sans-serif;
-          margin-bottom: 50px;
+          margin-bottom: 6vw;
         }
       }
     }

@@ -139,6 +139,7 @@ export default {
           font-family: 'Noto Sans CJK KR', Noto Sans KR, sans-serif;
           color:#c0c9ef;
           font-size: 3.875vw;
+          line-height: 4.3vw;
         }
       }
     }
