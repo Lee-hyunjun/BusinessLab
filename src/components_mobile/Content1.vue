@@ -75,27 +75,29 @@ export default {
     max-width: 1200px;
     width: 100%;
     // background-image: url("../assets/backBuilding.png");
-    h1{
-      font-size: 5vw;
-    }
+
     > div{
       margin: 0 auto;
-      max-width: 1060px;
       width: 100%;
       padding-top: 87px;
       
       >h1{
+        padding-left: 6vw;
+        font-size: 5vw;
         margin-bottom: 50px;
         font-family: GmarketSansTTFBold ,sans-serif;
         color: #0d1741;
+        width: 100%;
       }
 
       > div{
+        max-width: 1060px;
         width: 100%;
         display: flex;
         flex-flow: wrap;
         align-items: center;
         justify-content: center;
+        margin: 0 auto;
 
         >div{
           overflow: hidden;

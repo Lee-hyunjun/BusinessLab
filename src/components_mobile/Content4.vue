@@ -467,7 +467,8 @@ export default {
         color: #0d1741;
         font-size: 10vw; 
         margin-bottom: 25px;
-        margin: 0 auto;
+        // margin: 0 auto;
+        padding-left: 5vw;
         font-family: 'GmarketSansTTFBold' ,sans-serif;
       }
 
@@ -477,7 +478,8 @@ export default {
         color: #0d1741;
         font-size: 3.6vw;
         display: block;
-        margin: 0 auto;
+        // margin: 0 auto;
+        padding-left: 5vw;
         margin-bottom: 82px;
         font-family: 'GmarketSansTTFMedium' ,sans-serif;
       }
@@ -620,7 +622,8 @@ export default {
           max-width: 1060px;
           width: 100%;
           justify-content: flex-start;
-          margin: 0 auto;
+          // margin: 0 auto;
+          padding-left: 5vw;
           padding-top: 12vw;
           font-size: 10vw;
           font-family: GmarketSansTTFBold ,sans-serif;

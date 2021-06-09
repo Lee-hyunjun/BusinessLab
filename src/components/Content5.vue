@@ -46,6 +46,7 @@ export default {
       left: 934px;
       top: 5852px;
       width: 58px;
+      cursor: pointer;
     }
 
     >div{

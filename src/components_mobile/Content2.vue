@@ -97,7 +97,8 @@ export default {
       margin: 0 auto;
 
       >span{
-        margin: 0 auto;
+        padding-left: 5vw;
+        // margin: 0 auto;
         width: 1060px;
         display:flex;
         justify-content: flex-start;
@@ -110,7 +111,8 @@ export default {
       }
 
       >p{
-        margin: 0 auto;
+        padding-left: 5vw;
+        // margin: 0 auto;
         width: 1060px;
         display:flex;
         justify-content: flex-start;
