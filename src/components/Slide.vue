@@ -173,6 +173,7 @@ export default {
     overflow: hidden;
   }
     .slideButton{
+      max-width: 1920px;
       position: absolute;
       top:37%;
       padding: 0 58px;

@@ -70,6 +70,7 @@ export default {
     z-index: 1000;
     top: 55px;
     width: 100%;
+    max-width: 1920px;
 
     >div{
       display: flex;

@@ -86,6 +86,7 @@ export default {
   }
 
   #Main{
+    margin: 0 auto;
     max-width: 1920px;
     width: 100%;
   }
