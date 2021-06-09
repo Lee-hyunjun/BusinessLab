@@ -229,6 +229,7 @@ export default {
           top:0;
           left: 0%;
           background-repeat: no-repeat;
+          background-size: cover;
           transform:scale(1.25);
         }
         .slide2{
@@ -241,6 +242,7 @@ export default {
           top:0;
           left: 0%;
           background-repeat: no-repeat;
+          background-size: cover;
           transform:scale(1.25);
         }
         .slide3{
@@ -253,6 +255,7 @@ export default {
           top:0;
           left: 0%;
           background-repeat: no-repeat;
+          background-size: cover;
           transform:scale(1.25);
         }
       }
