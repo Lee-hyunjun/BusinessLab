@@ -54,11 +54,7 @@ export default {
         default:
           break;
       }
-       window.scrollTo({
-        top: top,
-        left: 0,
-        behavior: 'smooth'
-      });
+      document.documentElement.scrollTop = top
     }
   }
 }

@@ -317,82 +317,295 @@
         <p>Partners</p>
         <div>
           <div>
-            <div class="footItem">
+            <div class="footItem footItem1">
               <div>
-                <img src="../assets/content4/MviaLogo.png" alt="icon">
+                <!-- <img src="../assets/content4/비즈데이터.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>비즈데이터</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('http://bizdata.kr/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://bizdata.kr/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+
+            <div class="footItem footItem2">
+              <div>
+                <!-- <img src="../assets/content4/와이즈넛.jpg" alt="icon"> -->
+              </div>
+              <div>
+                <p>와이즈넛</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://www.wisenut.com/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://www.wisenut.com/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+
+
+            <div class="footItem footItem3">
+              <div>
+                <!-- <img src="../assets/content4/미소정보통신.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>미소정보기술</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('http://www.misoinfo.co.kr/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://www.misoinfo.co.kr/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem4">
+              <div>
+                <!-- <img src="../assets/content4/씽크풀.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>씽크풀</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('http://www.thinkpool.com/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://www.thinkpool.com/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem5">
+              <div>
+                <!-- <img src="../assets/content4/애즈위메이크.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>애즈위메이크</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://www.aswemake.com/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://www.aswemake.com/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem6">
+              <div>
+                <!-- <img src="../assets/content4/두유비.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>두유비</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://www.doub.co.kr/ ')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://www.doub.co.kr/ ')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem7">
+              <div>
+                <!-- <img src="../assets/content4/인스타일테크.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>인스타일테크</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://instyletech.net/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://instyletech.net/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem8">
+              <div>
+                <!-- <img src="../assets/content4/가치랩스.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>가치랩스</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('http://gazzi.ai/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://gazzi.ai/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem9">
+              <div>
+                <!-- <img src="../assets/content4/인천창조경제혁신센터.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>인천창조혁신센터</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://ccei.creativekorea.or.kr/incheon/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://ccei.creativekorea.or.kr/incheon/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem10">
+              <div>
+                <!-- <img src="../assets/content4/이그린글로벌.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>이그린글로벌</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://ko.eggtuber.com/ ')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://ko.eggtuber.com/ ')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem11">
+              <div>
+                <!-- <img src="../assets/content4/와이엘엔터프라이즈.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>와이엘엔터프라이즈</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://www.yl-enterprise.com/  ')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://www.yl-enterprise.com/  ')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem12">
+              <div>
+                <!-- <img src="../assets/content4/이에스씨컴퍼니.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>이에스씨컴퍼니</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://mall.holapet.com/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://mall.holapet.com/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem13">
+              <div>
+                <!-- <img src="../assets/content4/카이언스.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>카이언스</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://www.chience.co.kr/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://www.chience.co.kr/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem14">
+              <div>
+                <!-- <img src="../assets/content4/달리셔스.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>달리셔스</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://kurrant.co/ ')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://kurrant.co/ ')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+            <div class="footItem footItem15">
+              <div>
+                <!-- <img src="../assets/content4/이누씨.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>이누씨</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('http://www.inucreative.com/ ')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://www.inucreative.com/ ')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+
+            <div class="footItem footItem16">
+              <div>
+                <!-- <img src="../assets/content4/스포라이브.png" alt="icon"> -->
+              </div>
+              <div>
+                <p>스포라이브</p>
+                <span>Small&Medium Venture Innovation <br>enterprise Association</span>
+              </div>
+              <div >
+                <img @click="PageChange('https://www.spolive.com/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('https://www.spolive.com/')" src="../assets/content4/button_hover.png" alt="button">
+              </div>
+            </div>
+
+            <div class="footItem footItem17">
+              <div>
+                <img style="height:25px" src="../assets/content4/MviaLogo.png" alt="icon">
               </div>
               <div>
                 <p>중소혁신벤처기업협회</p>
                 <span>Small&Medium Venture Innovation <br>enterprise Association</span>
               </div>
-              <div>
-                <img @click="PageChange(1)" src="../assets/content4/button.png" alt="button">
-                <img @click="PageChange(1)" src="../assets/content4/button_hover.png" alt="button">
+              <div >
+                <img @click="PageChange('http://www.mvia.or.kr/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://www.mvia.or.kr/')" src="../assets/content4/button_hover.png" alt="button">
               </div>
             </div>
-            <div class="footItem">
+            <div class="footItem footItem18">
               <div>
-                <img src="../assets/content4/3.png" alt="icon">
+                <!-- <img src="../assets/content4/3.png" alt="icon"> -->
               </div>
               <div>
                 <p>블루오션투자자협회</p>
                 <span>Blue Ocean Investor Association</span>
               </div>
-              <div>
-                <img @click="PageChange(2)" src="../assets/content4/button.png" alt="button">
-                <img @click="PageChange(2)" src="../assets/content4/button_hover.png" alt="button">
+              <div >
+                <img @click="PageChange('http://lueocean-ventures.kr')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://lueocean-ventures.kr')" src="../assets/content4/button_hover.png" alt="button">
               </div>
             </div>
-            <div class="footItem">
+            <div class="footItem footItem19">
               <div>
-                <img src="../assets/content4/2.png" alt="icon">
+                <!-- <img src="../assets/content4/2.png" alt="icon"> -->
               </div>
               <div>
                 <p>성능검증연구협의회</p>
                 <span>Research association for ICT <br>performance verification</span>
               </div>
-              <div>
-                <img @click="PageChange(3)" src="../assets/content4/button.png" alt="button">
-                <img @click="PageChange(3)" src="../assets/content4/button_hover.png" alt="button">
+              <div >
+                <img @click="PageChange('http://ictpvr.or.kr/')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://ictpvr.or.kr/')" src="../assets/content4/button_hover.png" alt="button">
               </div>
             </div>
-            <div class="footItem">
+            <div class="footItem footItem20">
               <div>
-                <img src="../assets/content4/3.png" alt="icon">
+                <!-- <img src="../assets/content4/3.png" alt="icon"> -->
               </div>
               <div>
                 <p>블루오션벤처스</p>
                 <span>Blue Ocean Ventures</span>
               </div>
-              <div>
-                <img @click="PageChange(4)" src="../assets/content4/button.png" alt="button">
-                <img @click="PageChange(4)" src="../assets/content4/button_hover.png" alt="button">
+              <div >
+                <img @click="PageChange('http://lueocean-ventures.kr')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://lueocean-ventures.kr')" src="../assets/content4/button_hover.png" alt="button">
               </div>
             </div>
-            <div class="footItem">
+            <div class="footItem footItem21">
               <div>
-                <img src="../assets/content4/3.png" alt="icon">
+                <!-- <img src="../assets/content4/3.png" alt="icon"> -->
               </div>
               <div>
                 <p>블루오션플래닛</p>
                 <span>Blue Ocean Planet</span>
               </div>
-              <div>
-                <img @click="PageChange(5)" src="../assets/content4/button.png" alt="button">
-                <img @click="PageChange(5)" src="../assets/content4/button_hover.png" alt="button">
+              <div >
+                <img @click="PageChange('http://lueocean-planet.kr')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://lueocean-planet.kr')" src="../assets/content4/button_hover.png" alt="button">
               </div>
             </div>
-            <div class="footItem">
+            <div class="footItem footItem22">
               <div>
-                <img src="../assets/content4/3.png" alt="icon">
+                <!-- <img src="../assets/content4/3.png" alt="icon"> -->
               </div>
               <div>
                 <p>블루오션미디어</p>
                 <span>Blue Ocean Media</span>
               </div>
-              <div>
-                <img @click="PageChange(6)" src="../assets/content4/button.png" alt="button">
-                <img @click="PageChange(6)" src="../assets/content4/button_hover.png" alt="button">
+              <div >
+                <img @click="PageChange('http://blueocean-media.kr')" src="../assets/content4/button.png" alt="button">
+                <img @click="PageChange('http://blueocean-media.kr')" src="../assets/content4/button_hover.png" alt="button">
               </div>
             </div>
           </div>  
@@ -453,6 +666,113 @@ export default {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 50vw;
+
+
+    .footItem1{
+      >div:first-child{
+        background-image:url('../assets/content4/비즈데이터.png');
+      }
+    }
+    .footItem2{
+      >div:first-child{
+        background-image:url('../assets/content4/와이즈넛.jpg');
+      }
+    }
+    .footItem3{
+      >div:first-child{
+        background-image:url('../assets/content4/미소정보통신.png');
+      }
+    }
+    .footItem4{
+      >div:first-child{
+        background-image:url('../assets/content4/씽크풀.png');
+      }
+    }
+    .footItem5{
+      >div:first-child{
+        background-image:url('../assets/content4/애즈위메이크.png');
+      }
+    }
+    .footItem6{
+      >div:first-child{
+        background-image:url('../assets/content4/두유비.png');
+      }
+    }
+    .footItem7{
+      >div:first-child{
+        background-image:url('../assets/content4/인스타일테크.png');
+      }
+    }
+    .footItem8{
+      >div:first-child{
+        background-image:url('../assets/content4/가치랩스.png');
+      }
+    }
+    .footItem9{
+      >div:first-child{
+        background-image:url('../assets/content4/인천창조경제혁신센터.png');
+      }
+    }
+    .footItem10{
+      >div:first-child{
+        background-image:url('../assets/content4/이그린글로벌.png');
+      }
+    }
+    .footItem11{
+      >div:first-child{
+        background-image:url('../assets/content4/와이엘엔터프라이즈.png');
+      }
+    }
+    .footItem12{
+      >div:first-child{
+        background-image:url('../assets/content4/이에스씨컴퍼니.png');
+      }
+    }
+    .footItem13{
+      >div:first-child{
+        background-image:url('../assets/content4/카이언스.png');
+      }
+    }
+    .footItem14{
+      >div:first-child{
+        background-image:url('../assets/content4/달리셔스.png');
+      }
+    }
+    .footItem15{
+      >div:first-child{
+        background-image:url('../assets/content4/이누씨.png');
+      }
+    }
+    .footItem16{
+      >div:first-child{
+        background-image:url('../assets/content4/스포라이브.png');
+      }
+    }
+    .footItem18{
+      >div:first-child{
+        background-image:url('../assets/content4/3.png');
+      }
+    }
+    .footItem19{
+      >div:first-child{
+        background-image:url('../assets/content4/2.png');
+      }
+    }
+    .footItem20{
+      >div:first-child{
+        background-image:url('../assets/content4/3.png');
+      }
+    }
+    .footItem21{
+      >div:first-child{
+        background-image:url('../assets/content4/3.png');
+      }
+    }
+    .footItem22{
+      >div:first-child{
+        background-image:url('../assets/content4/3.png');
+      }
+    }
 
     >div{
       // position: absolute;
@@ -643,7 +963,7 @@ export default {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 300vw;
+            width: 1000vw;
             height: 100%;
             position: absolute;
             top: 1vw;
@@ -654,7 +974,7 @@ export default {
               border-radius: 15px;
               background: white;
               // max-width: 1060px;
-              width: 15.5%;
+              width: 4.2%;
               box-shadow:0px 15px 22px #e0e0e0;
               height: 80%;
               padding-top: 1vw;
@@ -665,6 +985,8 @@ export default {
                 display: flex;
                 align-items: center;
                 margin-bottom: 10px;
+                background-repeat: no-repeat;
+                background-size: contain;
               }
 
               >div:nth-child(2){
